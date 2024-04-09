@@ -27,7 +27,7 @@ prices = [
     68.20,
     66.00,
 ]
-H = 15
+H = 14
  
 
 def test_minimize_cost():
