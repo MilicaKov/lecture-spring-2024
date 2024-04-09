@@ -28,7 +28,7 @@ prices = [
     66.00,
 ]
 H = 14
- 
+
 
 def test_minimize_cost():
     result = minimize_cost(prices, arrival_time, 0, H)
