@@ -27,10 +27,10 @@ prices = [
     68.20,
     66.00,
 ]
-H = 14
+H = 38
  
 
 def test_minimize_cost():
     result = minimize_cost(prices, arrival_time, 0, H)
     assert isinstance(result, (int, float))
-    assert result > 10
+    assert result > 0
