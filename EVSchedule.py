@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import pulp
 import copy
 
- 
 def minimize_cost(prices, arrival_time, SOC, H):
     OptimalBatteryCapacity = 60
     electricity_cost = prices
